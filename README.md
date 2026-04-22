@@ -5,7 +5,8 @@ Generalmente los estudiantes tienen dificultad para aprender conceptos de la fí
 
 # Objetivos
 
-### 1-. Objetivo General: Desarrollar un programa en C que calcule de manera precisa el tiempo y distancia de colisión de 2 vehiculos (MRU)
+### 1-. Objetivo General: 
+  -Desarrollar un programa en C que calcule de manera precisa el tiempo y distancia de colisión de 2 vehiculos (MRU)
      
 ### Objetivos Especificos:
  -Implementar las ecuaciones de mru al codigo en forma de funciones.
