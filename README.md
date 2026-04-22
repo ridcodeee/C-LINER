@@ -9,4 +9,5 @@ Generalmente los estudiantes tienen dificultad para aprender conceptos de la fí
      
 ### Objetivos Especificos:
    -Implementar las ecuaciones de mru al codigo en forma de funciones 
+   
    -Programar una interfaz que muestre los resultados obtenidos
