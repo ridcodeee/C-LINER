@@ -30,7 +30,7 @@ Sea propuesto implementar la lógica matemática del Movimiento Rectilíneo Unif
 ## Avances y próximos pasos
 **Avance:** Estructura básica terminada.
 
-* **Próximo paso:**
+**Próximo paso:**
 * Implementar el archivo AI_USAGE.md y el Milestone del Hito 2.
 
 ## Justificación de Cambios y Anexos
