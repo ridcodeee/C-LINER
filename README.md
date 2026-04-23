@@ -10,11 +10,10 @@ Implementar un software de simulación en lenguaje C capaz de procesar y resolve
 validando la entrada de datos del usuario y entregando resultados precisos que sirvan como guía visual para el estudio de la física mecánica.
 
 ### Específicos:
-· Desarrollar un programa en C que solucione problemas de MRU y entregue un resultado certero del tiempo y distancia en donde colisionan  
+* Desarrollar un programa en C que solucione problemas de MRU y entregue un resultado certero del tiempo y distancia en donde colisionan.
+* Implementar un sistema de de validación de entrada de datos el cual asegure que los datos ingresados sean validos.
+* Diseñar un interfaz de salida de resultados por consola de manera clara para el usuario presentando los datos obtenidos.
 
-· Implementar un sistema de de validación de entrada de datos el cual asegure que los datos ingresados sean validos 
-
-· Diseñar un interfaz de salida de resultados por consola de manera clara para el usuario presentando los datos obtenidos 
 ## Roles del Equipo
 * **Integrante 1:** Antonella Bertolone (katary071n) - Desarrollador de lógica y gestión de repositorio.
 * **Integrante 2:** Alejandro Diaz (ricodee) - Desarrollador de lógica física (Backend). 
