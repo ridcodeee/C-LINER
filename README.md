@@ -5,14 +5,16 @@ Generalmente los estudiantes tienen dificultad para aprender conceptos de la fí
 
 # Objetivos
 
-### 1-. Objetivo General:  
+### 1-.General:  
 Implementar un software de simulación en lenguaje C capaz de procesar y resolver ecuaciones de Movimiento Rectilíneo Uniforme (MRU), programa en C que calcule de manera precisa el tiempo y distancia de colisión de 2 vehículos
 validando la entrada de datos del usuario y entregando resultados precisos que sirvan como guía visual para el estudio de la física mecánica.
 
-     
-### Objetivos Específicos:
-Se ha propuesto implementar la lógica matemática del Movimiento Rectilíneo Uniforme utilizando el lenguaje de programación C, asegurando que los cálculos de distancia, tiempo y velocidad sean precisos. Asimismo, Se buscará diseñar una interfaz de usuario en consola que sea intuitiva y fácil de usar para estudiantes de educación media, complementando esto con una validación de datos que permita evitar errores durante la ejecución del programa ante ingresos de datos no numéricos.
+### Específicos:
+· Desarrollar un programa en C que solucione problemas de MRU y entregue un resultado certero del tiempo y distancia en donde colisionan  
 
+· Implementar un sistema de de validación de entrada de datos el cual asegure que los datos ingresados sean validos 
+
+· Diseñar un interfaz de salida de resultados por consola de manera clara para el usuario presentando los datos obtenidos 
 ## Roles del Equipo
 * **Integrante 1:** Antonella Bertolone (katary071n) - Desarrollador de lógica y gestión de repositorio.
 * **Integrante 2:** Alejandro Diaz (ricodee) - Desarrollador de lógica física (Backend). 
