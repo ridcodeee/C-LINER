@@ -37,5 +37,49 @@ validando la entrada de datos del usuario y entregando resultados precisos que s
 ## Justificación de Cambios y Anexos
 * No hay cambios respecto al plan original.
 
+## 4. Migración de C a C++ y Cambios Estructurales
+(Aquí deben explicar a nivel general cómo transformaron el código estructurado en funciones de C a un modelo de objetos en C++)
 
+## 5. Diseño de Clases y Responsabilidades
+Para este Hito 2, incorporamos un diseño modular basado en la Programación Orientada a Objetos
+
+### Clase "Vehiculo" 
+**Responsabilidad:** Representar a cada uno de los móviles de la simulación, almacenando sus atributos físicos y controlando su estado
+* **Atributos:** `posicionInicial` (double), `velocidad` (double), `nombre` (std::string)
+* [cite_start]**Métodos principales:** Constructores, getters/setters, y métodos para calcular la posición en un tiempo 
+
+### Clase `Simulador` o `SistemaFisico` 
+* **Responsabilidad:** Coordinar la simulación, procesar las validaciones de entrada, calcular el punto/tiempo exacto de colisión y desplegar los resultados.
+* **Relaciones:** Tiene una relación de **Composición** con la clase `Vehiculo` (el Simulador contiene dos instancias de `Vehiculo`)
+
+**[COMPLETAR: Ajusten los nombres de las clases a las que realmente crearon en su carpeta `src/`, detallando qué hace cada una y cómo se relacionan (herencia/composición)]**
+
+---
+
+## 6. Funcionalidades Implementadas y Casos de Prueba
+El software cuenta con las siguientes capacidades funcionales
+
+...
+
+1. Cálculo de la distancia exacta en que se encuentran ambos vehículos (Colisión)
+
+...
+
+3. Cálculo del tiempo en que se encuentran ambos vehículos
+
+...
+
+5. Sistema de validación robusto para evitar velocidades o posiciones lógicas imposibles (entradas no numéricas, etc.)
+
+
+...
+
+### Ejemplos de Ejecución (Casos de Prueba)
+> (Para asegurar los 25 puntos del README, incluyan ejemplos con texto real de la consola)
+
+#### Caso 1: Colisión Estándar (Vehículos en sentidos opuestos)
+* **Entrada de ejemplo:**
+  ```text
+  Vehículo 1 -> Posición: 0 m, Velocidad: 20 m/s
+  Vehículo 2 -> Posición: 100 m, Velocidad: -30 m/s
 
