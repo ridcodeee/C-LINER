@@ -84,7 +84,13 @@ El software cuenta con las siguientes capacidades funcionales
   Vehículo 2 -> Posición: 100 m, Velocidad: -30 m/s
 
 #### Caso 2: Colisión Estándar v2 (Vehículos en mismo sentido)
+  ```text
+  INGRESE LA POSICION INICIAL DEL VEHICULO: 0
+INGRESE LA VELOCIDAD INICIAL DEL VEHICULO: 50
+INGRESE LOS DATOS DEL SEGUNDO VEHICULO
+INGRESE LA POSICION INICIAL DEL VEHICULO: 100
+INGRESE LA VELOCIDAD INICIAL DEL VEHICULO: 20
+-> La distancia en que se encontraran ambos vehiculos es en: 166.667 Kilometros
+-> El tiempo en que se encontraran ambos vehiculos es en: 3.33333 segundos
+SELECCIONE UNA OPCION (1-4):
 
-#### Caso 3: Fallo en colisión (Vehículos en misma dirección pero nos se encuentran)
-
-#### Caso 4: Fallo en colisión v2 (Vehículos en distinta dirección pero nos se encuentran)
