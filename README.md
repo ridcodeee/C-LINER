@@ -38,7 +38,7 @@ validando la entrada de datos del usuario y entregando resultados precisos que s
 * No hay cambios respecto al plan original.
 
 ## 4. Migración de C a C++ y Cambios Estructurales
-(Aquí deben explicar a nivel general cómo transformaron el código estructurado en funciones de C a un modelo de objetos en C++)
+Al cambiar el codigo de C a C++ la estructura cambia ya que se implementa la orientación ambientada a objetos por lo que las funciones que eran declaradas como funciones ahora son metodos de una clase (vehículos), las variables se convirtieron en atributos de un objeto, además ahora para crear un vehículo se tiene que crear dos objetos de la misma clase.
 
 ## 5. Diseño de Clases y Responsabilidades
 Para este Hito 2, incorporamos un diseño modular basado en la Programación Orientada a Objetos
