@@ -84,7 +84,7 @@ El software cuenta con las siguientes capacidades funcionales
   -> La distancia en que se encontraran ambos vehiculos es en: 200 Kilometros
   -> El tiempo en que se encontraran ambos vehiculos es en: 2.5 segundos
 
-#### Caso 2: El segundo vehiculo es mas rapido
+#### Caso 2: El segundo vehiculo es mas rapido.
 * **Entrada de ejemplo:**
   ```text
   SELECCIONE UNA OPCION (1-4): 1
@@ -105,6 +105,15 @@ El software cuenta con las siguientes capacidades funcionales
   INGRESE LA VELOCIDAD INICIAL DEL VEHICULO: 40
   ->Ambos vehiculos nunca se encontraran
   
-#### Caso 4: Fallo en colisión v2 (Vehículos en distinta dirección pero nos se encuentran)
+#### Caso 4: Encuentro con pósición inicial negativa.
 * **Entrada de ejemplo:**
   ```text
+  INGRESE LA POSICION INICIAL DEL VEHICULO: -50
+  INGRESE LA VELOCIDAD INICIAL DEL VEHICULO: 100
+  ->INGRESE LOS DATOS DEL SEGUNDO VEHICULO
+  INGRESE LA POSICION INICIAL DEL VEHICULO: 50
+  INGRESE LA VELOCIDAD INICIAL DEL VEHICULO: 20
+  -> La distancia en que se encontraran ambos vehiculos es en: 75 metros
+  -> El tiempo en que se encontraran ambos vehiculos es en: 1.25 segundos
+
+
