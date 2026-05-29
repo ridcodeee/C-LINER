@@ -12,7 +12,6 @@ Gemini: Utilizado para la generación de ideas para el proyecto e ideas para imp
 2. "¿Como configuro el archivo task.json en Visual Studio Code para poder compilar un archivo en C?"
 3. "¿Cual es la formula de MRU para el calculo de tiempo de colision, y a su vez distancia de encuentro entre dos objetos?"
 4. "¿Como funciona el modificador de acceso <const> dentro de un metodo en c++"?
-5. "¿
 
 ### Observaciones
 La IA se utilizó para estructurar el archivo README.md siguiendo los criterios de la rúbrica del Hito 1 y para definir roles coherentes con las Issues del proyecto.
