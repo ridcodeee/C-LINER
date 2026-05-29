@@ -76,27 +76,37 @@ El software cuenta con las siguientes capacidades funcionales
 
 ### Ejemplos de Ejecución (Casos de Prueba)
 
-#### Caso 1: Colisión Estándar (Vehículos en sentidos opuestos)
-* **Entrada de ejemplo:**
-  ```text
-  Vehículo 1 -> Posición: 0 m, Velocidad: 20 m/s
-  Vehículo 2 -> Posición: 100 m, Velocidad: -30 m/s
-
-#### Caso 2: Colisión Estándar v2 (Vehículos en mismo sentido)
+#### Caso 1: Vehiculo de atras alcanza al de adelante.
 * **Entrada de ejemplo:**
   ```text
   INGRESE LA POSICION INICIAL DEL VEHICULO: 0
-  INGRESE LA VELOCIDAD INICIAL DEL VEHICULO: 50
+  INGRESE LA VELOCIDAD INICIAL DEL VEHICULO: 80
   INGRESE LOS DATOS DEL SEGUNDO VEHICULO
   INGRESE LA POSICION INICIAL DEL VEHICULO: 100
-  INGRESE LA VELOCIDAD INICIAL DEL VEHICULO: 20
-  -> La distancia en que se encontraran ambos vehiculos es en: 166.667 Kilometros
-  -> El tiempo en que se encontraran ambos vehiculos es en: 3.33333 segundos
-  SELECCIONE UNA OPCION (1-4):
+  INGRESE LA VELOCIDAD INICIAL DEL VEHICULO: 40
+  -> La distancia en que se encontraran ambos vehiculos es en: 200 Kilometros
+  -> El tiempo en que se encontraran ambos vehiculos es en: 2.5 segundos
 
-#### Caso 3: Fallo en colisión (Vehículos en misma dirección pero nos se encuentran)
+#### Caso 2: El segundo vehiculo es mas rapido
 * **Entrada de ejemplo:**
   ```text
+  SELECCIONE UNA OPCION (1-4): 1
+  INGRESE LA POSICION INICIAL DEL VEHICULO: 0
+  INGRESE LA VELOCIDAD INICIAL DEL VEHICULO: 30
+  INGRESE LOS DATOS DEL SEGUNDO VEHICULO
+  INGRESE LA POSICION INICIAL DEL VEHICULO: 100
+  INGRESE LA VELOCIDAD INICIAL DEL VEHICULO: 50
+  ->Ambos vehiculos nunca se encontraran
+  
+#### Caso 3: Misma velocidad, posiciones distintas.
+* **Entrada de ejemplo:**
+  ```text
+  INGRESE LA POSICION INICIAL DEL VEHICULO: 0
+  INGRESE LA VELOCIDAD INICIAL DEL VEHICULO: 40
+  ->INGRESE LOS DATOS DEL SEGUNDO VEHICULO
+  INGRESE LA POSICION INICIAL DEL VEHICULO: 100
+  INGRESE LA VELOCIDAD INICIAL DEL VEHICULO: 40
+  ->Ambos vehiculos nunca se encontraran
   
 #### Caso 4: Fallo en colisión v2 (Vehículos en distinta dirección pero nos se encuentran)
 * **Entrada de ejemplo:**
