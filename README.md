@@ -138,7 +138,7 @@ Para dar cumplimiento estricto a las pautas de diseño modular y evitar que la i
 * Cuando el usuario presiona el botón en la interfaz, `MainWindow` captura los valores numéricos mediante sus **Slots** nativos, instancia los objetos de la clase `Vehiculo` y delega la operación matemática a `SistemaFisico`[cite: 59]. Los resultados numéricos se retornan a la vista para ser mostrados en las etiquetas de salida (`QLabel`), logrando un flujo limpio, estructurado y asíncrono[cite: 55, 59].
 
 ## 8. Casos de Prueba (Escenarios de Uso en GUI)
-Mapeo de la ejecución de pruebas utilizando la interfaz gráfica para validar los resultados esperados[cite: 60]:
+Mapeo de la ejecución de pruebas utilizando la interfaz gráfica para validar los resultados esperados:
 
 | ID Prueba | Entrada Vehículo 1 | Entrada Vehículo 2 | Comportamiento Esperado | Resultado en Interfaz |
 | :--- | :--- | :--- | :--- | :--- |
@@ -149,8 +149,8 @@ Mapeo de la ejecución de pruebas utilizando la interfaz gráfica para validar l
 
 ## 9. Instrucciones de Compilación y Ejecución
 ### Requisitos Previos
-* Compilador de C++ con soporte para C++17 o superior (GCC/MinGW, MSVC)[cite: 64].
-* Framework **Qt 6.x** instalado con el módulo Qt Widgets[cite: 53].
+* Compilador de C++ con soporte para C++17 o superior (GCC/MinGW, MSVC).
+* Framework **Qt 6.x** instalado con el módulo Qt Widgets.
 * Herramienta de automatización **CMake** (versión 3.16 o superior) o el entorno de desarrollo integrado **Qt Creator**.
 
 ### Compilación y Ejecución mediante Terminal (CMake)
