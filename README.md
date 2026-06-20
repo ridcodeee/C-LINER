@@ -113,4 +113,54 @@ El software cuenta con las siguientes capacidades funcionales
   -> La distancia en que se encontraran ambos vehiculos es en: 75 metros
   -> El tiempo en que se encontraran ambos vehiculos es en: 1.25 segundos
 
+## 4. Evolución del Proyecto (Hito 3)
+**Hito 3** Incorporación de una capa visual interactiva utilizando el Framework
+Se removio por completo la interaccion por terminal, se implementó el patron de diseño de separación lógica-interfaz mediante eventos asínconos (Signals y Slots) y se añadieron controles dinámicos para la configurar la simulación sin modificar el código fuente
+
+## 5. Diseño de la capa de interfaz y responsabilidades
+El software cuenta con un diseño de software desacoplado donde la presentacion se maneja de manera independiente de la física cinematica:
+
+### Clase `MainWindow`(`mainwindow.hpp` / `mainwindow.cpp`)
+**rol** Capa de interfaz de usuario desarrollada en Qt Widgets, Renderiza la ventana principal, recolecta las entradas numéricas de los controles gráficos, realiza la conversión de datos y actualiza las etiquetas de texto del reporte visual al capturar los eventos del sistema
+
+## 6. Interfaz Desarrollada y Parametrización
+### Objetivo de la Interfaz
+Eliminar la necesidad de interactuar mediante la consola de comandos, proveyendo un espacio visual interactivo donde cualquier estudiante pueda alterar libremente los datos iniciales de los móviles y visualizar los resultados numéricos instantáneamente mediante clics
+
+### Componentes y Widgets Principales
+**`QDoubleSpinBox`**: Utilizados para el ingreso y parametrización de las posiciones iniciales (m) y las velocidades (m/s) de ambos vehículos, restringiendo por software la entrada de caracteres alfabéticos o símbolos inválidos.
+**`QPushButton`**: Botones interactivos encargados de disparar el cálculo cinemático de colisión (`"Calcular Encuentro"`) y restablecer el simulador a su estado neutro (`"Reiniciar"`).
+**`QLabel`**: Secciones destinadas a la salida dinámica de texto donde se imprimen el tiempo final, la posición de impacto o los mensajes informativos de alerta si la colisión es físicamente imposible.
+
+## 7. Separación entre Lógica e Interfaz (Signals & Slots)
+Para dar cumplimiento estricto a las pautas de diseño modular y evitar que la interfaz concentre la lógica del proyecto, la física cinemática está **completamente desacoplada** de Qt[cite: 56, 57]:
+* Las clases `Vehiculo` y `SistemaFisico` se compilan de manera pura en C++ estándar y no contienen directivas de inclusión gráfica (`#include <QWidget>`), garantizando que la física funcione con total independencia del entorno gráfico.
+* Cuando el usuario presiona el botón en la interfaz, `MainWindow` captura los valores numéricos mediante sus **Slots** nativos, instancia los objetos de la clase `Vehiculo` y delega la operación matemática a `SistemaFisico`[cite: 59]. Los resultados numéricos se retornan a la vista para ser mostrados en las etiquetas de salida (`QLabel`), logrando un flujo limpio, estructurado y asíncrono[cite: 55, 59].
+
+## 8. Casos de Prueba (Escenarios de Uso en GUI)
+Mapeo de la ejecución de pruebas utilizando la interfaz gráfica para validar los resultados esperados[cite: 60]:
+
+| ID Prueba | Entrada Vehículo 1 | Entrada Vehículo 2 | Comportamiento Esperado | Resultado en Interfaz |
+| :--- | :--- | :--- | :--- | :--- |
+| **TC-01** | Pos: 0 m, Vel: 80 m/s | Pos: 100 m, Vel: 40 m/s | El de atrás alcanza al de adelante. | Tiempo: 2.5 s, Distancia: 200 m. |
+| **TC-02** | Pos: 0 m, Vel: 30 m/s | Pos: 100 m, Vel: 50 m/s | El segundo vehículo es más rápido y se aleja. | Mensaje: "Ambos vehículos nunca se encontrarán". |
+| **TC-03** | Pos: 0 m, Vel: 40 m/s | Pos: 100 m, Vel: 40 m/s | Velocidades idénticas en desfase espacial. | Mensaje: "Ambos vehículos nunca se encontrarán". |
+| **TC-04** | Pos: -50 m, Vel: 100 m/s| Pos: 50 m, Vel: 200 m/s | Dirección opuesta / Posición negativa. | Tiempo: 1.0 s, Distancia: 50 m. |
+
+## 9. Instrucciones de Compilación y Ejecución
+### Requisitos Previos
+* Compilador de C++ con soporte para C++17 o superior (GCC/MinGW, MSVC)[cite: 64].
+* Framework **Qt 6.x** instalado con el módulo Qt Widgets[cite: 53].
+* Herramienta de automatización **CMake** (versión 3.16 o superior) o el entorno de desarrollo integrado **Qt Creator**.
+
+### Compilación y Ejecución mediante Terminal (CMake)
+
+
+
+
+
+
+
+
+
 
