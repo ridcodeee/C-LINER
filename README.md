@@ -18,7 +18,9 @@ validando la entrada de datos del usuario y entregando resultados precisos que s
 * **Integrante 1:** Antonella Bertolone (katary071n) - Desarrollador de lógica y gestión de repositorio.
 * **Integrante 2:** Alejandro Diaz (ricodee) - Desarrollador de lógica física (Backend). 
 * **Integrante 3:** Javier da Cruz (f0rtv13r) - Encargado de pruebas, control de calidad y casos borde.
-* **Integrante 4:** Leonardo Gutierrez (Goh-y777) - Gestor de proyecto y documentación
+
+  **Nota sobre composición del equipo:**
+  Informamos que el estudiante Leonardo Gutierrez, inicialmente asignado como gestor de proyecto y documentación, se retiró del equipo y de la institución por motivos personales antes de que se haya finalizado el proyecto. Las tareas correspondientes a su rol fueron redistribuidas y asumidas por los integrantes restantes.
 
 ## Funcionalidades Implementadas
 * Distancia en que se encuentran ambos vehículos (Colision)
@@ -154,8 +156,6 @@ Mapeo de la ejecución de pruebas utilizando la interfaz gráfica para validar l
 * Herramienta de automatización **CMake** (versión 3.16 o superior) o el entorno de desarrollo integrado **Qt Creator**.
 
 ### Compilación y Ejecución mediante Terminal (CMake)
-
-
 
 
 
