@@ -154,6 +154,7 @@ Mapeo de la ejecución de pruebas utilizando la interfaz gráfica para validar l
 * Compilador de C++ con soporte para C++17 o superior (GCC/MinGW, MSVC).
 * Framework **Qt 6.x** instalado con el módulo Qt Widgets.
 * Herramienta de automatización **CMake** (versión 3.16 o superior) o el entorno de desarrollo integrado **Qt Creator**.
+* MinGW 64 bits
 
 ### Compilación y Ejecución mediante Terminal (CMake)
 
