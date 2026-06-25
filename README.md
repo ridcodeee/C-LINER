@@ -135,9 +135,9 @@ Eliminar la necesidad de interactuar mediante la consola de comandos, proveyendo
 **`QLabel`**: Secciones destinadas a la salida dinámica de texto donde se imprimen el tiempo final, la posición de impacto o los mensajes informativos de alerta si la colisión es físicamente imposible.
 
 ## 7. Separación entre Lógica e Interfaz (Signals & Slots)
-Para dar cumplimiento estricto a las pautas de diseño modular y evitar que la interfaz concentre la lógica del proyecto, la física cinemática está **completamente desacoplada** de Qt[cite: 56, 57]:
+Para dar cumplimiento estricto a las pautas de diseño modular y evitar que la interfaz concentre la lógica del proyecto, la física cinemática está **completamente desacoplada** de Qt:
 * Las clases `Vehiculo` y `SistemaFisico` se compilan de manera pura en C++ estándar y no contienen directivas de inclusión gráfica (`#include <QWidget>`), garantizando que la física funcione con total independencia del entorno gráfico.
-* Cuando el usuario presiona el botón en la interfaz, `MainWindow` captura los valores numéricos mediante sus **Slots** nativos, instancia los objetos de la clase `Vehiculo` y delega la operación matemática a `SistemaFisico`[cite: 59]. Los resultados numéricos se retornan a la vista para ser mostrados en las etiquetas de salida (`QLabel`), logrando un flujo limpio, estructurado y asíncrono[cite: 55, 59].
+* Cuando el usuario presiona el botón en la interfaz, `MainWindow` captura los valores numéricos mediante sus **Slots** nativos, instancia los objetos de la clase `Vehiculo` y delega la operación matemática a `SistemaFisico`. Los resultados numéricos se retornan a la vista para ser mostrados en las etiquetas de salida (`QLabel`), logrando un flujo limpio, estructurado y asíncrono.
 
 ## 8. Casos de Prueba (Escenarios de Uso en GUI)
 Mapeo de la ejecución de pruebas utilizando la interfaz gráfica para validar los resultados esperados:
