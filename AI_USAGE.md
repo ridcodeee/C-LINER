@@ -22,4 +22,8 @@ Gemini: Utilizado para la generación de ideas para el proyecto e ideas para imp
 La IA se utilizó para estructurar el archivo README.md siguiendo los criterios de la rúbrica del Hito 1 y para definir roles coherentes con las Issues del proyecto.
 
 ### Limitaciones
-La IA proporcionó una estructura general, pero la redacción de la problemática y los objetivos específicos fueron ajustados manualmente para reflejar la realidad del código en C.
+Durante el desarrollo de este proyecto, la inteligencia artificial (IA) funcionó como una excelente herramienta de diseño lógico y arquitectónico, pero presentó limitaciones prácticas claras, en este caso son:
+
+.Desconexión con el entorno local: La IA carecía de acceso al sistema operativo y al entorno de compilación (Qt Creator). No pudo configurar las herramientas de CMake, solucionar los conflictos con los compiladores (MSVC/MinGW) ni gestionar los archivos del sistema, dependiendo enteramente de la intervención humana y de capturas de pantalla para diagnosticar errores y reubicar las imágenes PNG en las carpetas correctas.
+
+.Ceguera espacial y visual: Aunque la IA fue capaz de calcular las coordenadas matemáticas para ubicar los vehículos en el eje X (como el ajuste en la posición Y a -35), no tenía forma de ver la interfaz generada. No pudo comprobar de forma autónoma si los autos estaban visualmente bien alineados, si la tipografía era legible o si las proporciones de la pantalla se adaptaban correctamente.
