@@ -17,6 +17,8 @@ Gemini: Utilizado para la generación de ideas para el proyecto e ideas para imp
 7. "¿Qué tipo de archivo especial de Qt se debe crear (con extensión .qrc) para incrustar recursos gráficos, como las        imágenes PNG de los autos?"
 8. "¿Qué método se aplica al objeto QPixmap al momento de cargar las fotos de los autos para ajustar su tamaño a 50x30 píxeles y asegurar de que la imagen no se deforme ni se aplaste?"
 9. "¿Como se hace para declarar los punteros de los elementos de entrada (como inputPos1 o rbKm) como atributos privados en el archivo .h, en lugar de inicializarlos como variables locales dentro de configurarInterfaz()?"
+10. "¿Porque no compila el compilador CMake, cuando intento compilar el proyecto?"
+11. "¿Como instalo el compilador MinGW para compilar cualquier tipo de proyecto en QT?
 
 ### Observaciones
 La IA se utilizó para estructurar el archivo README.md siguiendo los criterios de la rúbrica del Hito 1 y para definir roles coherentes con las Issues del proyecto.
