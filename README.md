@@ -147,7 +147,7 @@ Mapeo de la ejecución de pruebas utilizando la interfaz gráfica para validar l
 | **TC-01** | Pos: 0 m, Vel: 80 m/s | Pos: 100 m, Vel: 40 m/s | El de atrás alcanza al de adelante. | Tiempo: 2.5 s, Distancia: 200 m. |
 | **TC-02** | Pos: 0 m, Vel: 30 m/s | Pos: 100 m, Vel: 50 m/s | El segundo vehículo es más rápido y se aleja. | Mensaje: "Ambos vehículos nunca se encontrarán". |
 | **TC-03** | Pos: 0 m, Vel: 40 m/s | Pos: 100 m, Vel: 40 m/s | Velocidades idénticas en desfase espacial. | Mensaje: "Ambos vehículos nunca se encontrarán". |
-| **TC-04** | Pos: -50 m, Vel: 100 m/s| Pos: 50 m, Vel: -200 m/s | Dirección opuesta / Posición negativa. | Tiempo: 1.0 s, Distancia: 50 m. |
+| **TC-04** | Pos: -50 m, Vel: 100 m/s| Pos: 60 m, Vel: -10 m/s | Dirección opuesta / Posición negativa. | Tiempo: 1.0 s, Distancia: 50 m. |
 
 ## 9. Instrucciones de Compilación y Ejecución
 ### Requisitos Previos
