@@ -183,9 +183,18 @@ Valida el signo algebraico en el motor físico, demostrando que el programa calc
 
 <img width="986" height="616" alt="image" src="https://github.com/user-attachments/assets/d596d1b3-38d9-43c1-9174-294d8f5be6c0" />
 
+## 10. Dificultades en creación de interfaz 
+* Implementación del entorno gráfico: El desafío de traducir resultados matemáticos a coordenadas visuales en pantalla, calculando escalas de píxeles y centrando la cámara automáticamente (centerOn) en el punto de encuentro.
 
+* Gestión de Layouts Anidados: Estructurar la ventana combinando cajas verticales (QVBoxLayout), horizontales (QHBoxLayout) y formularios (QFormLayout) para que los controles y el plano interactivo se adapten correctamente sin desarmarse.
 
+* Manejo Dinámico de Tipos de Datos: El proceso de capturar texto de los QLineEdit, convertirlo a flotantes (toFloat()) para la matemática, y reconstruir el mensaje final inyectando variables con QString::arg()
 
+## 11. Conclusión y posibles mejoras
+#### Conclusión:
+C-LINER logró su objetivo principal: ser una herramienta interactiva y visual que facilita el aprendizaje y cálculo del Movimiento Rectilíneo Uniforme (MRU). A nivel de desarrollo, el mayor aprendizaje del equipo fue la migración de C a C++; entender que separar la lógica matemática del diseño de la interfaz gráfica (Qt) era clave para mantener el código ordenado y evitar fallos.
 
-
-
+#### Posibles Mejoras:
+* Animación en tiempo real: Implementar temporizadores para que los vehículos se muevan progresivamente en el plano visual, en lugar de mostrar solo el resultado final.
+* Soporte para MRUV: Añadir la variable de "Aceleración" para escalar la física del simulador.
+* Exportar resultados: Agregar una funcionalidad para guardar los datos y el gráfico del encuentro en un archivo (PDF o texto) que sirva como guía de estudio.
