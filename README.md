@@ -160,9 +160,11 @@ Mapeo de la ejecución de pruebas utilizando la interfaz gráfica para validar l
 Para copilar se uso la herramienta MinGW 64 bits
 
 Caso #1
+Los vehiculos nunca se encontraran
 <img width="989" height="613" alt="image" src="https://github.com/user-attachments/assets/954ad81a-8159-401d-8526-5e193b6720ee" />
 
 Caso #2
+
 <img width="987" height="611" alt="image" src="https://github.com/user-attachments/assets/af509774-3630-42a6-86ff-ae20fd31ecb6" />
 
 
