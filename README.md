@@ -156,9 +156,21 @@ Mapeo de la ejecución de pruebas utilizando la interfaz gráfica para validar l
 * Herramienta de automatización **CMake** (versión 3.16 o superior) o el entorno de desarrollo integrado **Qt Creator**.
 * MinGW 64 bits
 
-### Compilación y Ejecución mediante Terminal (CMake)
+### Casos de Prueba 
+Para copilar se uso la herramienta MinGW 64 bits
+
+Caso #1
+<img width="989" height="613" alt="image" src="https://github.com/user-attachments/assets/954ad81a-8159-401d-8526-5e193b6720ee" />
+
+Caso #2
+<img width="987" height="611" alt="image" src="https://github.com/user-attachments/assets/af509774-3630-42a6-86ff-ae20fd31ecb6" />
 
 
+Caso #3
+<img width="985" height="613" alt="image" src="https://github.com/user-attachments/assets/ba9b5ed4-a9ba-4f28-a113-a841d3ac2c29" />
+
+Caso #4
+<img width="987" height="622" alt="image" src="https://github.com/user-attachments/assets/019e86fc-9484-4532-9b44-badd385f6a0c" />
 
 
 
