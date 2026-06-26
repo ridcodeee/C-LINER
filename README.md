@@ -161,24 +161,27 @@ Para copilar se uso la herramienta MinGW 64 bits
 
 ## Caso 1:
 Comprueba el escenario básico de persecución matemática donde el móvil retrasado viaja a mayor velocidad, logrando un alcance exitoso en un tiempo positivo.
-
-Entrada de ejemplo:
-INGRESE LA POSICION INICIAL DEL VEHICULO: 0
-INGRESE LA VELOCIDAD INICIAL DEL VEHICULO: 80
-INGRESE LOS DATOS DEL SEGUNDO VEHICULO
-INGRESE LA POSICION INICIAL DEL VEHICULO: 100
-INGRESE LA VELOCIDAD INICIAL DEL VEHICULO: 40
--> La distancia en que se encontraran ambos vehiculos es en: 200 Kilometros
--> El tiempo en que se encontraran ambos vehiculos es en: 2.5 segundos
+  
+<img width="986" height="617" alt="image" src="https://github.com/user-attachments/assets/64b2dd84-60f9-4102-9e1b-63d6297a2c24" />
 
 
 Caso #2
+Evalúa la divergencia del sistema de ecuaciones cuando el vehículo delantero tiene una velocidad superior, provocando un alejamiento perpetuo que imposibilita la colisión
+
+<img width="989" height="618" alt="image" src="https://github.com/user-attachments/assets/ea5f1343-3d6f-4719-a2ad-f3eeeb1434d8" />
+
 
 
 Caso #3
+Prueba el comportamiento límite de rectas paralelas en física. Al desplazarse con magnitudes idénticas, la distancia relativa se mantiene constante indefinidamente.
+
+<img width="998" height="630" alt="image" src="https://github.com/user-attachments/assets/dc7f7f98-bb46-4d6d-8668-aff048a694cd" />
 
 
 Caso #4
+Valida el signo algebraico en el motor físico, demostrando que el programa calcula intersecciones correctas incluso cuando un móvil inicia detrás del origen de coordenadas
+
+<img width="986" height="616" alt="image" src="https://github.com/user-attachments/assets/d596d1b3-38d9-43c1-9174-294d8f5be6c0" />
 
 
 
