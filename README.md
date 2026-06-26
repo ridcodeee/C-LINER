@@ -35,6 +35,7 @@ validando la entrada de datos del usuario y entregando resultados precisos que s
 
 **Próximo paso:**
 * Implementar el archivo AI_USAGE.md y el Milestone del Hito 2.
+* Migrar al Hito 3 haciendo uso del Framework Qt para desarrollar la interfaz grafica
 
 ## Justificación de Cambios y Anexos
 * No hay cambios respecto al plan original.
@@ -157,7 +158,7 @@ Mapeo de la ejecución de pruebas utilizando la interfaz gráfica para validar l
 * MinGW 64 bits
 
 ### Casos de Prueba 
-Para copilar se uso la herramienta MinGW 64 bits
+Para compilar se uso la herramienta MinGW 64 bits
 
 ## Caso 1:
 Comprueba el escenario básico de persecución matemática donde el móvil retrasado viaja a mayor velocidad, logrando un alcance exitoso en un tiempo positivo.
