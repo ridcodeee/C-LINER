@@ -21,7 +21,7 @@ Gemini: Utilizado para la generación de ideas para el proyecto e ideas para imp
 11. "¿Como instalo el compilador MinGW para compilar cualquier tipo de proyecto en QT?
 
 ### Observaciones
-La IA se utilizó para estructurar el archivo README.md siguiendo los criterios de la rúbrica del Hito 1 y para definir roles coherentes con las Issues del proyecto.
+El uso de IA resultó ser un acelerador altamente efectivo para estructurar el código base y resolver problemas técnicos del framework, logrando traducir rápidamente la lógica matemática a una programación funcional. Sin embargo, evidenció limitaciones operativas claras al carecer de acceso al entorno local, lo que le impidió configurar compiladores, directorios o manipular archivos directamente. Es provoco que, la IA operó como un excelente asistente de diseño teórico, pero el proyecto dependió del grupo de trabajo para ensamblar el entorno con la logica del programa, y realizar la validación visual y práctica de la interfaz generada.
 
 ### Limitaciones
 Durante el desarrollo de este proyecto, la inteligencia artificial (IA) funcionó como una excelente herramienta de diseño lógico y arquitectónico, pero presentó limitaciones prácticas claras, en este caso son:
