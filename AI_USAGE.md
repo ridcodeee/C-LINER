@@ -5,7 +5,7 @@ Gemini: Utilizado para la generación de ideas para el proyecto e ideas para imp
 # Uso de Inteligencia Artificial
 
 ### Herramientas Utilizadas
-* Gemini
+* Gemini Pro
 
 ### Prompts Realizados
 1. "¿Como se llama el metodo en el lenguaje C, para hacer un valor absoluto de una resta de dos datos tipo float?"
